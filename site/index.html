@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Module2-Solution</title>
+</head>
+
+<style>
+	body{
+		background-color: lightyellow;
+	}
+
+	.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-spacing: 5px;
+  gap: 5px 1em;
+
+}
+	
+	#f{
+	padding: 25px;
+		border: 3px solid red;
+		width: 300px;
+		margin-top: 15px;
+		height: 350px;
+		overflow: auto;
+	}
+
+	#s{
+	padding: 15px;
+		border: 3px solid red;
+		width: 300px;
+/*		margin-left: 320px;*/
+/*		align-content: center;*/
+/*		box-align: center;*/
+		height: 350px;
+		margin-top: 15px;
+
+	}
+
+	#t{
+	padding: 15px;
+		border: 3px solid red;
+		width: 300px;
+		margin-top: 15px;
+		content: 25px;
+		height: 350px;
+		float: top-right;
+		overflow: auto;
+	}
+
+	@media(min-width:1200px ) and (max-width:1600px ){
+
+		#f{
+			width: 150%;
+		}
+		#s{
+			width: 150%;
+		}
+		#t{
+			width: 150%;
+		}
+	}
+
+	@media(min-width:1199px){
+
+		#f{
+			width: 60%;
+		}
+		#s{
+			width: 70%;
+		}
+		#t{
+			width: 100%;
+
+		}
+	}
+
+</style>
+
+<body>
+
+<h1 style="text-align:center;"> Our Menu </h1>
+
+<div class="box">
+<p>
+<div id="f">
+<div style="text-align: right;border: 3px solid black; width: 70px; padding:5px;  margin-left:5px; box-sizing: border-box;">Chicken </div>
+A YouTube description is a section where a content creator can provide additional information about their video content. This can include content descriptions, links to related content, social media or website links, and more. The goal of a YouTube description is to help viewers understand what the content is about.</div></p>
+
+<p>
+<div id="s">
+<div style="text-align: center;border: 3px solid black; width: 60px; padding:3px;">Beef </div>
+When writing the description portion of a gig, it is important to include keywords that accurately and effectively describe the services or products being offered. These keywords should be relevant to the gig and should be used throughout the description in a natural way.</div></p>
+
+
+<p><div id="t">
+<div style="text-align: left;border: 3px solid black; width: 80px; padding:2px;">Mutton </div>
+It is also important to use keywords that are commonly searched by potential clients and that is specific enough to attract the right audience. Researching popular keywords in your industry can help you identify the best keywords to use in your gig description. Keep in mind the language used in your gig description should be clear, concise, and easy to understand. Also, try to be as specific as possible about the services and deliverables you will be providing, and make sure that your gig title is clear and concise as well.</div>
+</p>
+		</div>
+
+</body>
+</html>
